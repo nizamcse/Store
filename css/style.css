@@ -1,0 +1,23 @@
+.common{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.vh-100{
+    min-height: 100vh;
+}
+.full-bg{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-position{
+    background-position: center;
+}
+.vertical-middle{
+    display: block;
+    top: 50%!important;
+    
+    position: relative;
+}
