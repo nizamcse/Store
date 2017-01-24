@@ -134,3 +134,16 @@ small, .font_small {font-size: 0.707em;}
     background-color: #5e5e5e;
 
 }
+.full-card-img{
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.full-card-text{
+    position: absolute;
+    left: 35%;
+    top: -30px;
+}
+.full-card-img:hover .hover-effect{
+    transform: scale(1);
+}
