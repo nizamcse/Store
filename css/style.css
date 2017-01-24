@@ -81,3 +81,46 @@ small, .font_small {font-size: 0.707em;}
 .btn-white{
     border-color: #fff;
 }
+.card-text{
+    background-color: #f7f7f7;
+    display: block;
+    overflow: hidden;
+}
+.hover-effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+    transform: scale(0);
+    transition: all 300ms ease-in-out;
+}
+.position-relative{
+    position: relative;
+}
+.sm-image-card:hover .hover-effect{
+    transform: scale(1);
+}
+.icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+.icons ul>li{
+    display: inline-block;
+    float: left;
+}
+.icons ul>li>a{
+    display: block;
+    font-size: 21px;
+    color: #333;
+}
+.icons li>a>i{
+    margin-right: 5px;
+}
+.price-tag{
+    margin-bottom: 0;
+}
