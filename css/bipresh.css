@@ -150,3 +150,14 @@
 .collection-card-bottom{
     padding: 0 50px;
 }
+.blog-07-inner{
+    position: relative;
+    overflow: hidden;
+}
+.absolute-full-bg{
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
