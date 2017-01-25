@@ -1,11 +1,42 @@
+/***************************** TYPOGRAPHY *******************************************/
+html {font-size: 1em;}
+
+body {
+    background-color: white;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+/***************************** TYPOGRAPHY FINISHED *******************************************/
 .common{
     position: relative;
     display: block;
-    width: 100%;
     overflow: hidden;
 }
 .vh-100{
-    min-height: 100vh;
+    height: 100vh;
 }
 .full-bg{
     background-position: 0 0;
@@ -15,9 +46,181 @@
 .bg-position{
     background-position: center;
 }
+
 .vertical-middle{
     display: block;
     top: 50%!important;
-    
     position: relative;
+    transform: translateY(-50%);
+}
+.btn-theme{
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #333;
+}
+.overlay:before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 10;
+
+}
+.z-1{
+    z-index: 10;
+}
+.z-2{
+    z-index: 20;
+}
+.text-white{
+    color: #fff;
+}
+.btn-white{
+    border-color: #fff;
+}
+.card-text{
+    background-color: #f7f7f7;
+    display: block;
+    overflow: hidden;
+}
+.hover-effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+    transform: scale(0);
+    transition: all 300ms ease-in-out;
+}
+.position-relative{
+    position: relative;
+}
+.compress-15{
+    padding: 0px 15px;
+}
+.sm-image-card:hover .hover-effect{
+    transform: scale(1);
+}
+.icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+.icons ul>li{
+    display: inline-block;
+    float: left;
+}
+.icons ul>li>a{
+    display: block;
+    font-size: 21px;
+    color: #333;
+}
+.icons li>a>i{
+    margin-right: 5px;
+}
+.price-tag{
+    margin-bottom: 0;
+}
+.latest-img{
+   position: relative;
+}
+.logo-price{
+   position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #5e5e5e;
+
+}
+.full-card-img{
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.full-card-text{
+    position: absolute;
+    left: 35%;
+    top: -30px;
+}
+.full-card-img:hover .hover-effect{
+    transform: scale(1);
+}
+.d-table{
+    display: table;
+    width:100%;
+}
+.d-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.media-img{
+    max-width:150px;
+}
+.product-media{
+    padding: 50px 0;
+}
+.d-body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.side-nav{
+    }
+.side-nav ul{
+    list-style: none;
+    display: block;
+}
+.side-nav ul>li{
+    display:block;
+}
+.side-nav ul>li>a{
+    display: block;
+    padding:15px;
+}
+.w-300 img{
+    max-width: 300px;
+}
+.card-landscape{
+    background-color: rgba(255,255,255,.5);
+    padding: 50px 20px;
+}
+.card-landscape .m-t{
+    margin-top: 30px;
+}
+.landscape-card-text{
+    padding: 0 15px;
+}
+.left-nav{
+    vertical-align: top;
+    background-color: rgba(255,255,255,.5);
+
+}
+.last-product{
+    padding: 90px 0;
+}
+.colored-bg-1{
+    background-color: #FFDDB6;
+}
+.colored-bg-2{
+    background-color: #9d9d9d;
+}
+.colored-bg-3{
+    background-color: #bce8f1;
+}
+.a-icon{
+    font-size: 48px;
+}
+.right-negative-15{
+    margin-right: -15px;
+}
+.left-negative-15{
+    margin-left: -15px;
+}
+.newton{
+    margin-top:30px;
 }
